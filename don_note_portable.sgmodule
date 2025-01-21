@@ -1,5 +1,7 @@
-#!name=DonNote代理版
-#!desc=DonNote的代理版本，可以不用打开电脑，直接手机端同步数据
+#!name=DonNotePortable
+#!desc=DonNote的便携版本，可以不用打开电脑，直接手机端同步数据
+#!author: Toby
+#!version: 1.0.0
 
 [Script]
 Rewrite: taiko.helper = type=http-response, pattern=^https://wl-taiko.wahlap.net/api/user/profile/songscore, script-path= https://raw.githubusercontent.com/meunicorn/DonNotePortable/refs/heads/main/don_note.js, requires-body=true, max-size=2097152
